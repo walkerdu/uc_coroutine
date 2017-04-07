@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message Msg
+{
+    optional string info = 1;
+    optional int32 idx = 2;
+}
